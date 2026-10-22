@@ -26,6 +26,10 @@ Live charts refresh every 15 seconds. Active playback updates every 25 seconds, 
 
 ## Releases and verification
 
-Installers are published under [Releases](https://github.com/RealChroma/Nightify-Releases/releases). Each release includes SHA-256 checksums. Windows builds do not have a trusted publisher certificate, and macOS builds are not Apple-notarized. Automatic application updates are not enabled yet.
+Installers are published under [Releases](https://github.com/RealChroma/Nightify-Releases/releases). Each release includes SHA-256 checksums. Windows builds do not have a trusted publisher certificate, and macOS builds are not Apple-notarized.
+
+From 0.3.2 onward, installed apps check for stable updates at startup and from About. Windows and Linux AppImage builds download updates in the app and offer an explicit restart and install action. macOS and Debian builds open the public release page for manual installation. Update-check failures display an error.
+
+If you are running 0.3.0 or 0.3.1, install the latest version manually once to enable future update checks.
 
 This repository distributes installers, release notes and issue reports. Nightify's development repository remains private. Applicable software license terms are included in LICENSE and the packaged application.
