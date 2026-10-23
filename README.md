@@ -1,6 +1,6 @@
 # Nightify
 
-Nightify is an independently maintained **desktop-first music player** by RealChroma.
+Nightify is an independently maintained music player for desktop, iPhone and Android by RealChroma.
 
 [Download the latest version](https://github.com/RealChroma/Nightify-Releases/releases/latest) · [Website](https://nightify.vercel.app/) · [Report an issue](https://github.com/RealChroma/Nightify-Releases/issues)
 
@@ -12,9 +12,9 @@ Nightify is an independently maintained **desktop-first music player** by RealCh
 | Linux | x64 AppImage and Debian/Ubuntu (.deb) |
 | macOS | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
 
-## iPhone preview
+## iPhone
 
-The native iPhone preview is available through the Nightify source in AltStore Classic or SideStore.
+The native iPhone app is available through the Nightify source in AltStore Classic or SideStore.
 
 **[Install Nightify on iPhone: setup, background refresh, VPN and updates](ios/INSTALL.md)**
 
@@ -24,15 +24,15 @@ Add this source once in AltStore/SideStore:
 https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.json
 ```
 
-Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iOS preview releases do not replace the desktop stable update channel.
+Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iPhone releases use their own update channel.
 
 ## Android
 
-The native Android preview uses Nightify's existing visual design, mobile features and account/device services.
+The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.0 preview](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.0)** · **[Install and test on Android or Android Auto](android/INSTALL.md)**
+**[Download Android 0.1.1](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.1)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. The app checks for future Android releases and offers an explicit download/install action. Android Auto's media service is included; physical phone and car acceptance are being tested. This preview is separate from the desktop stable channel and iPhone source.
+Install the signed APK on Android 9 or newer. Version 0.1.1 fixes playback HTTP 403 errors. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
 
 ## Features
 
