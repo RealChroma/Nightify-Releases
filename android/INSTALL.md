@@ -1,12 +1,12 @@
-# Nightify Android preview: friend testing
+# Install Nightify on Android
 
-This is the first Android preview. The purpose of sharing it is to check actual Android phones and Android Auto hardware, in addition to automated build/emulator checks.
+Nightify is available as a standalone Android app. Use this guide to install it, receive updates and set up Android Auto.
 
 ## Install
 
-[Download the Android preview](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.0). Choose `Nightify-Android-0.1.0.apk` from Assets.
+[Download Nightify for Android](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.1). Choose `Nightify-Android-0.1.1.apk` from Assets.
 
-1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.0.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
+1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.1.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
 2. Open the APK. If prompted, allow **Install unknown apps** for the browser or Files app used to open it, then confirm installation.
 3. Open **Nightify** and sign in or create a Nightify account. Use the same Nightify account on your desktop/iPhone to test device continuation. A new account password needs at least 15 characters.
 4. Allow Nightify notifications if you want to see download progress. The app needs internet access for sign-in, search and streaming. Already downloaded/imported audio can play offline.
@@ -40,13 +40,13 @@ Use a compatible car while parked. Sign into Nightify on the phone first.
 4. Connect the phone to the car using its supported USB or wireless Android Auto connection.
 5. Check Nightify appears, then browse Liked songs/Downloads/Recently played/Playlists. Test playback, artwork, pause/next/previous and steering-wheel controls. Test voice search if available.
 
-Android Auto's dashboard uses its own media layout. Phone screens and scrolling lyrics are not mirrored into the driving interface. Android Auto support is implemented, but real-car acceptance is pending until a tester completes it. [Google's official sideloaded-media testing instructions](https://developer.android.com/training/cars/testing#unknown-sources)
+Android Auto's dashboard uses its own media layout. Phone screens and scrolling lyrics are not mirrored into the driving interface. Android Auto support is included; compatibility with a particular phone/head unit should be checked while parked. [Google's official sideloaded-media testing instructions](https://developer.android.com/training/cars/testing#unknown-sources)
 
 ## Updates
 
 Use **Nightify → Settings → Updates → Check for updates**. The app also checks periodically when opened. When a compatible release is published, select Download update, allow Nightify's **Install unknown apps** permission if requested, and confirm Android's installer. Download verification checks the APK size, SHA-256, app ID/version and signing certificate before opening the installer.
 
-The update feed only advertises published versions; automatic checks are separate from Android's installation confirmation. A preview supplied before the public Android feed is enabled will not see an update until a version is published there.
+The update feed only advertises published versions; automatic checks are separate from Android's installation confirmation. Android asks you to confirm installation of each downloaded update.
 
 ## Report results
 
