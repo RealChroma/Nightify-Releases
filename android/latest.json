@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "versionCode": 1,
+  "minSdk": 28,
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.0/Nightify-Android-0.1.0.apk",
+  "size": 55651120,
+  "sha256": "78194c319d96a6ddc761f4c40e57efac7a2beb0a6d816e39c078a350476f8873",
+  "releaseNotes": "Native Nightify Android preview: your library, lyrics, offline downloads and cross-device playback.",
+  "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
+  "sourceCommit": "3c998c425b9d90198a2e18eabbbf26ffa8e56f33"
+}
