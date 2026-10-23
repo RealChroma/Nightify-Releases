@@ -28,7 +28,11 @@ Use the source listing to install future Nightify versions. Signing refresh keep
 
 ## Android
 
-A native Android app is planned with Nightify's existing visual design, mobile features and cross-device playback. An Android download is not available yet.
+The native Android preview uses Nightify's existing visual design, mobile features and account/device services.
+
+**[Download Android 0.1.0 preview](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.0)** · **[Install and test on Android or Android Auto](android/INSTALL.md)**
+
+Install the signed APK on Android 9 or newer. The app checks for future Android releases and offers an explicit download/install action. Android Auto's media service is included; physical phone and car acceptance are being tested. This preview is separate from the desktop stable channel and iPhone source.
 
 ## Features
 
