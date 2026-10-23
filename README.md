@@ -12,7 +12,23 @@ Nightify is an independently maintained **desktop-first music player** by RealCh
 | Linux | x64 AppImage and Debian/Ubuntu (.deb) |
 | macOS | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
 
-**Android & iOS** support is planned as a Progressive Web App (PWA).
+## iPhone preview
+
+The native iPhone preview is available through the Nightify source in AltStore Classic or SideStore.
+
+**[Install Nightify on iPhone: setup, background refresh, VPN and updates](ios/INSTALL.md)**
+
+Add this source once in AltStore/SideStore:
+
+```text
+https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.json
+```
+
+Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iOS preview releases do not replace the desktop stable update channel.
+
+## Android
+
+A native Android app is planned with Nightify's existing visual design, mobile features and cross-device playback. An Android download is not available yet.
 
 ## Features
 
