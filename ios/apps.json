@@ -1,0 +1,32 @@
+{
+  "name": "Nightify",
+  "identifier": "com.realchroma.nightify.source",
+  "sourceURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.json",
+  "website": "https://nightify.vercel.app/",
+  "apps": [
+    {
+      "name": "Nightify",
+      "bundleIdentifier": "com.realchroma.nightify.ios",
+      "developerName": "RealChroma",
+      "subtitle": "Your music, on every screen.",
+      "localizedDescription": "Nightify for iPhone: music, lyrics, downloads and playback continuation.",
+      "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
+      "tintColor": "A654FF",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.3",
+          "date": "2026-10-23T07:09:45Z",
+          "localizedDescription": "Nightify for iPhone: music, lyrics, downloads and playback continuation.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.3/Nightify-iOS-0.1.3-private.ipa",
+          "size": 23356223,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
