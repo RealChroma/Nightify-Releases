@@ -30,9 +30,15 @@ Use the source listing to install future Nightify versions. Signing refresh keep
 
 The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.1](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.1)** · **[Install on Android or Android Auto](android/INSTALL.md)**
+**[Download Android 0.1.2](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.2)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. Version 0.1.1 fixes playback HTTP 403 errors. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+Install the signed APK on Android 9 or newer. Version 0.1.2 adds simple nearby connections and fixes buffering controls, offline library refresh and playlist photos. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+
+## Connect devices
+
+Open the existing **Connect devices** menu and tap a device on your Wi-Fi/Ethernet network. Nearby devices connect automatically. Use **Use as a speaker without signing in** for a receiver without a Nightify account. **Settings → Playback** contains Nearby connections and desktop-only Game radio.
+
+[Local connections and offline playback](LOCAL_CONNECT.md) · [Desktop game-radio setup](game-radio/README.md)
 
 ## Features
 
