@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "versionCode": 3,
+  "version": "0.1.3",
+  "versionCode": 4,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.2/Nightify-Android-0.1.2.apk",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.3/Nightify-Android-0.1.3.apk",
   "size": 55765832,
-  "sha256": "ac44ed01a78566b88712d1ed5403eed7a64755fbd7d463d59bbbe44e5f32ae8b",
-  "releaseNotes": "Simple tap-to-connect devices, nearby speaker mode, responsive buffering controls, saved offline library and playlist-photo fixes.",
+  "sha256": "5903ab885b37fe5667707ddd611abbbc0b918866c66d35140b36647ebad39b52",
+  "releaseNotes": "More accurate lyric clocks, consistent timing offsets and improved nearby-device lyric timing.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "fbd7876c26d1a0e13363e90d97eb7b65eaeb51f0"
+  "sourceCommit": "6562c1d400ceca8db24bf707b9f2d1f397138963"
 }

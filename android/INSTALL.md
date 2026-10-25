@@ -4,9 +4,9 @@ Nightify is available as a standalone Android app. Use this guide to install it,
 
 ## Install
 
-[Download Nightify for Android](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.2). Choose `Nightify-Android-0.1.2.apk` from Assets.
+[Download Nightify for Android](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.3). Choose `Nightify-Android-0.1.3.apk` from Assets.
 
-1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.2.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
+1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.3.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
 2. Open the APK. If prompted, allow **Install unknown apps** for the browser or Files app used to open it, then confirm installation.
 3. Open **Nightify** and sign in or create a Nightify account. Use the same Nightify account on your desktop/iPhone to test device continuation. A new account password needs at least 15 characters.
 4. Allow Nightify notifications if you want to see download progress. The app needs internet access for sign-in, search and streaming. Already downloaded/imported audio can play offline.
