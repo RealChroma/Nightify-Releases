@@ -4,14 +4,20 @@ Nightify is available as a standalone Android app. Use this guide to install it,
 
 ## Install
 
-[Download Nightify for Android](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.1). Choose `Nightify-Android-0.1.1.apk` from Assets.
+[Download Nightify for Android](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.2). Choose `Nightify-Android-0.1.2.apk` from Assets.
 
-1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.1.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
+1. Use an Android 9 or newer phone. Download the **Nightify-Android-0.1.2.apk** release package supplied by the Nightify owner. A `.sha256` file accompanies it for verification.
 2. Open the APK. If prompted, allow **Install unknown apps** for the browser or Files app used to open it, then confirm installation.
 3. Open **Nightify** and sign in or create a Nightify account. Use the same Nightify account on your desktop/iPhone to test device continuation. A new account password needs at least 15 characters.
 4. Allow Nightify notifications if you want to see download progress. The app needs internet access for sign-in, search and streaming. Already downloaded/imported audio can play offline.
 
 No Apple Account, local VPN or weekly signing refresh is needed. Future signed APKs use the same app identity/key so you can update in place; do not uninstall first. Android may present extra developer-verification steps depending on the phone and region. [Google's current installation rules](https://developer.android.com/developer-verification)
+
+## Nearby playback
+
+Open **Connect devices** on the sending app and tap a device. Nightify discovers receivers on the same Wi-Fi/Ethernet network and connects without entering a code. A receiver can also start from **Use as a speaker without signing in** on its sign-in screen. Allow local-network access and keep the mobile receiver open for new connections.
+
+**Play here** returns playback to the sender. Online songs still need internet on the receiver. Source-only files are not copied. Wired headphones/USB audio and Bluetooth use Android's system output. Game-radio integration is desktop-only and is configured under desktop **Settings → Playback**. Disable **Nearby connections** in Settings to stop other devices on your local network from connecting.
 
 ## Test the phone app
 
