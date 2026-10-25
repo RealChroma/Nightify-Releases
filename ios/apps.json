@@ -14,9 +14,19 @@
       "tintColor": "A654FF",
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Discover and pair with nearby Nightify speakers on your local network."
+        }
       },
       "versions": [
+        {
+          "version": "0.1.5",
+          "date": "2026-10-25T06:04:40Z",
+          "localizedDescription": "Nightify for iPhone: music, lyrics, downloads and playback continuation.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.5/Nightify-iOS-0.1.5.ipa",
+          "size": 23513190,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.4",
           "date": "2026-10-23T18:06:18Z",
