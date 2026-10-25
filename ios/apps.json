@@ -20,6 +20,14 @@
       },
       "versions": [
         {
+          "version": "0.1.6",
+          "date": "2026-10-25T08:03:43Z",
+          "localizedDescription": "Nightify for iPhone: music, lyrics, downloads and playback continuation.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.6/Nightify-iOS-0.1.6.ipa",
+          "size": 23518765,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.1.5",
           "date": "2026-10-25T06:04:40Z",
           "localizedDescription": "Nightify for iPhone: music, lyrics, downloads and playback continuation.",
