@@ -30,9 +30,9 @@ Use the source listing to install future Nightify versions. Signing refresh keep
 
 The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.3](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.3)** · **[Install on Android or Android Auto](android/INSTALL.md)**
+**[Download Android 0.1.4](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.4)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. Version 0.1.3 improves lyric timing, timing adjustments and nearby-device lyric sync. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+Install the signed APK on Android 9 or newer. Version 0.1.4 corrects song artist credits and matches album rows to the right song recording. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
 
 ## Connect devices
 
