@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "versionCode": 5,
+  "version": "0.1.5",
+  "versionCode": 6,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.4/Nightify-Android-0.1.4.apk",
-  "size": 55765832,
-  "sha256": "1433530d9d5ec5c73be49bbaf7a032d60c59e5a27c8a93ff9049efcba30eac60",
-  "releaseNotes": "Nightify for Android 0.1.4 fixes song search rows that could show a result label instead of the artist's name. Artist credits now handle multiple unlinked names and keep available artist identifiers.\n\nAlbum rows that point to a music video or unavailable premium version can now play the matching song recording when title, artist and duration agree.\n\nUpdate from **Settings → Updates → Check for updates**. Existing accounts, libraries, downloads and settings are retained.",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.5/Nightify-Android-0.1.5.apk",
+  "size": 55798600,
+  "sha256": "56162dbc7859c142e033da4c8b920c8cd090079ea84842aad06c814e731a1922",
+  "releaseNotes": "Nightify for Android 0.1.5 adds combined YouTube and SoundCloud song search. Matching recordings are deduplicated while live performances and other versions remain separate.\n\nLyrics from available providers are saved on disk for offline use. Imported files with artist/title tags fetch their lyrics in the background, and downloaded songs prepare lyrics after saving. Lyric caches stay separate for each Nightify account.\n\nUpdate from **Settings → Updates → Check for updates**. Existing accounts, saved music, playlists and settings are preserved.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "9e7ba05b5982010910ef77603988133c56895c2c"
+  "sourceCommit": "8feb9050dcf8287fb5561922e2c9491c79fa47e0"
 }
