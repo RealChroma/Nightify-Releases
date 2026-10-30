@@ -10,7 +10,7 @@ Nightify is an independently maintained music player for desktop, iPhone and And
 | --- | --- |
 | Windows | x64 setup installer (.exe) |
 | Linux | x64 AppImage and Debian/Ubuntu (.deb) |
-| macOS | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
+| macOS 13 or newer | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
 
 ## iPhone
 
@@ -26,13 +26,15 @@ https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.jso
 
 Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iPhone releases use their own update channel.
 
+[iPhone 0.1.8](https://github.com/RealChroma/Nightify-Releases/releases/tag/ios-v0.1.8) adds combined YouTube and SoundCloud search and account-specific lyrics saved for offline use.
+
 ## Android
 
 The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.4](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.4)** · **[Install on Android or Android Auto](android/INSTALL.md)**
+**[Download Android 0.1.5](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.5)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. Version 0.1.4 corrects song artist credits and matches album rows to the right song recording. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+Install the signed APK on Android 9 or newer. Version 0.1.5 combines YouTube and SoundCloud search and saves account-specific lyrics for offline use, including imported and downloaded songs. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
 
 ## Connect devices
 
@@ -47,8 +49,11 @@ Open the existing **Connect devices** menu and tap a device on your Wi-Fi/Ethern
 - Live now-playing rankings from Nightify listeners who opt into public activity and leaderboards.
 - All-time listening charts, personal listening history and daily mixes.
 - Thirteen Nightify branding choices, including the default and twelve accent logos.
+- Updated desktop sign-in, settings navigation, collection pages and fullscreen player.
+- Storage controls for cached music, saved liked songs and imported files.
+- Combined YouTube and SoundCloud search, plus lyrics retained for offline listening.
 
-Live charts refresh every 15 seconds. Active playback updates every 25 seconds, and disconnected listeners expire after 90 seconds. No Spotify or Liner popularity statistics are used by Nightify's charts.
+Live charts refresh every 15 seconds. Active playback updates every 25 seconds, and disconnected listeners expire after 90 seconds. Rankings come from Nightify listeners who enable sharing.
 
 ## Releases and verification
 
