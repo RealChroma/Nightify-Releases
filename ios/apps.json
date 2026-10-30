@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "Nightify for iPhone 0.1.7 fixes song search rows that could show a result label instead of the artist's name. Artist credits now handle multiple unlinked names and keep available artist identifiers.\n\nAlbum rows that point to a music video or unavailable premium version can now play the matching song recording when title, artist and duration agree.\n\nIcon controls remain accessible on older supported iOS versions, including password visibility and playlist download actions.\nThe guest-speaker option scrolls with sign-in content so it cannot cover the registration button when the keyboard is open.\n\nRefresh the Nightify source in SideStore or AltStore and update in place using the same Apple signing account. Existing accounts, libraries, downloads and settings are retained.",
+      "localizedDescription": "Nightify for iPhone 0.1.8 adds combined YouTube and SoundCloud song search. Matching recordings are deduplicated while live performances and other versions remain separate.\n\nLyrics from available providers are saved on disk for offline use. Imported files read their title/artist tags and prepare lyrics in the background; downloaded songs prepare lyrics after saving. Lyric caches stay separate for each Nightify account.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.8",
+          "date": "2026-10-30T19:27:11Z",
+          "localizedDescription": "Nightify for iPhone 0.1.8 adds combined YouTube and SoundCloud song search. Matching recordings are deduplicated while live performances and other versions remain separate.\n\nLyrics from available providers are saved on disk for offline use. Imported files read their title/artist tags and prepare lyrics in the background; downloaded songs prepare lyrics after saving. Lyric caches stay separate for each Nightify account.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.8/Nightify-iOS-0.1.8.ipa",
+          "size": 23794514,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.7",
           "date": "2026-10-28T06:03:15Z",
