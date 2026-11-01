@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
-  "versionCode": 6,
+  "version": "0.1.6",
+  "versionCode": 7,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.5/Nightify-Android-0.1.5.apk",
-  "size": 55798600,
-  "sha256": "56162dbc7859c142e033da4c8b920c8cd090079ea84842aad06c814e731a1922",
-  "releaseNotes": "Nightify for Android 0.1.5 adds combined YouTube and SoundCloud song search. Matching recordings are deduplicated while live performances and other versions remain separate.\n\nLyrics from available providers are saved on disk for offline use. Imported files with artist/title tags fetch their lyrics in the background, and downloaded songs prepare lyrics after saving. Lyric caches stay separate for each Nightify account.\n\nUpdate from **Settings → Updates → Check for updates**. Existing accounts, saved music, playlists and settings are preserved.",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.6/Nightify-Android-0.1.6.apk",
+  "size": 55814984,
+  "sha256": "02fabc690e7bb421f3a072a1fdd1117d8965995b26362cfbe5d8d85fe43df787",
+  "releaseNotes": "Nightify for Android 0.1.6 fixes shuffle. Turning shuffle on now reshuffles the songs after the current one right away, and the Queue tab shows the real upcoming order under **Next up · Shuffled**. Turning it off continues in the original order. \"Play next\" stays next while shuffled, and tapping a song in the queue plays it without resetting the queue.\n\nNow playing opens full screen with a smooth slide. Scrolling the queue or lyrics no longer drags the player or leaves it stuck halfway. Swipe down on the header, press back or tap the arrow to close it. Repeat now cycles between off, all songs and one song.\n\nSong lists and lyrics redraw less often during playback, so scrolling is smoother on long playlists.\n\nUpdate from **Settings → Updates → Check for updates**. Existing accounts, saved music, playlists and settings are preserved.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "8feb9050dcf8287fb5561922e2c9491c79fa47e0"
+  "sourceCommit": "9e32bbc02ab640510c5eb003e6ebfe172bd5a8e0"
 }
