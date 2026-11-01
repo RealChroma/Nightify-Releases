@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "Nightify for iPhone 0.1.8 adds combined YouTube and SoundCloud song search. Matching recordings are deduplicated while live performances and other versions remain separate.\n\nLyrics from available providers are saved on disk for offline use. Imported files read their title/artist tags and prepare lyrics in the background; downloaded songs prepare lyrics after saving. Lyric caches stay separate for each Nightify account.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
+      "localizedDescription": "Nightify for iPhone 0.1.9 fixes shuffle. Turning shuffle on while a song plays now reshuffles everything after it immediately, and turning it off continues in the original order. Starting a playlist with shuffle keeps your chosen song first, and \"Play next\" stays next while shuffled.\n\nTapping a song in the play queue jumps to it without rebuilding or reshuffling the queue. Repeat now cycles between off, the whole playlist and one song.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.9",
+          "date": "2026-11-01T05:26:33Z",
+          "localizedDescription": "Nightify for iPhone 0.1.9 fixes shuffle. Turning shuffle on while a song plays now reshuffles everything after it immediately, and turning it off continues in the original order. Starting a playlist with shuffle keeps your chosen song first, and \"Play next\" stays next while shuffled.\n\nTapping a song in the play queue jumps to it without rebuilding or reshuffling the queue. Repeat now cycles between off, the whole playlist and one song.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.9/Nightify-iOS-0.1.9.ipa",
+          "size": 23586837,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.8",
           "date": "2026-10-30T19:27:11Z",
