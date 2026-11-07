@@ -12,7 +12,7 @@ Nightify is an independently maintained music player for desktop, iPhone and And
 | Linux | x64 AppImage and Debian/Ubuntu (.deb) |
 | macOS 13 or newer | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
 
-Desktop 0.4.1 shuffles the whole playlist from any selected song, including songs above it. It also updates fullscreen lyrics, artist navigation, settings/storage controls and global playback shortcuts.
+Desktop 0.4.2 fixes game-radio startup and repeated stop/start. It includes whole-playlist shuffle from any selected song, updated fullscreen lyrics, artist navigation, settings/storage controls and global playback shortcuts.
 
 ## iPhone
 
