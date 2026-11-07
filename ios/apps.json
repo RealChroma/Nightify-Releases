@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "Nightify for iPhone 0.1.9 fixes shuffle. Turning shuffle on while a song plays now reshuffles everything after it immediately, and turning it off continues in the original order. Starting a playlist with shuffle keeps your chosen song first, and \"Play next\" stays next while shuffled.\n\nTapping a song in the play queue jumps to it without rebuilding or reshuffling the queue. Repeat now cycles between off, the whole playlist and one song.\n\nRefresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account. Existing accounts, saved music, playlists and settings are preserved.",
+      "localizedDescription": "Now Playing follows the active audio item as songs advance automatically. Elapsed time and duration come from the same audio item, and late notifications from a previous song can no longer advance the queue again.\n\nNightify skips preview-only SoundCloud recordings when a full stream is unavailable. Refresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.10",
+          "date": "2026-11-07T20:36:00Z",
+          "localizedDescription": "Now Playing follows the active audio item as songs advance automatically. Elapsed time and duration come from the same audio item, and late notifications from a previous song can no longer advance the queue again.\n\nNightify skips preview-only SoundCloud recordings when a full stream is unavailable. Refresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.10/Nightify-iOS-0.1.10.ipa",
+          "size": 23807647,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.9",
           "date": "2026-11-01T05:26:33Z",
