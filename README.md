@@ -12,6 +12,8 @@ Nightify is an independently maintained music player for desktop, iPhone and And
 | Linux | x64 AppImage and Debian/Ubuntu (.deb) |
 | macOS 13 or newer | Apple Silicon (arm64) and Intel (x64), DMG and ZIP |
 
+Desktop 0.4.1 shuffles the whole playlist from any selected song, including songs above it. It also updates fullscreen lyrics, artist navigation, settings/storage controls and global playback shortcuts.
+
 ## iPhone
 
 The native iPhone app is available through the Nightify source in AltStore Classic or SideStore.
@@ -26,15 +28,15 @@ https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.jso
 
 Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iPhone releases use their own update channel.
 
-[iPhone 0.1.8](https://github.com/RealChroma/Nightify-Releases/releases/tag/ios-v0.1.8) adds combined YouTube and SoundCloud search and account-specific lyrics saved for offline use.
+[iPhone 0.1.10](https://github.com/RealChroma/Nightify-Releases/releases/tag/ios-v0.1.10) keeps the song title and timing synchronized as playback advances automatically and handles preview-only recordings.
 
 ## Android
 
 The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.5](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.5)** · **[Install on Android or Android Auto](android/INSTALL.md)**
+**[Download Android 0.1.7](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.7)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. Version 0.1.5 combines YouTube and SoundCloud search and saves account-specific lyrics for offline use, including imported and downloaded songs. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+Install the signed APK on Android 9 or newer. Version 0.1.7 corrects playback titles and timestamps, uses the actual audio length, and checks for unreadable streams before playback. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
 
 ## Connect devices
 
