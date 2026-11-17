@@ -1,11 +1,11 @@
 {
-  "version": "0.1.7",
-  "versionCode": 8,
+  "version": "0.1.8",
+  "versionCode": 9,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.7/Nightify-Android-0.1.7.apk",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.8/Nightify-Android-0.1.8.apk",
   "size": 55831368,
-  "sha256": "daed0879f52808202904d2cc5c1ee776a8deff3efb8acaa52506ba8e19704508",
-  "releaseNotes": "Now Playing and the mini player use the length reported by the audio player. The title, artwork, and timing follow the active queue item when playback advances.\n\nNightify checks audio before playback and tries another available encoding when a stream is unreadable. SoundCloud previews are skipped when only part of a recording is available. Playback errors show a shorter message.\n\nUpdate in place from **Settings → Updates → Check for updates**.",
+  "sha256": "686d662a45a7f9e0b8c7ef2645289b3810f1cee542715172c8300f0c753f91eb",
+  "releaseNotes": "# Nightify for Android 0.1.8\n\n- Streamed songs, local files and offline HLS downloads now retain their own playback boundaries through source resolution.\n- Long audio containers no longer keep later audio under one song's title or inflate its duration.\n- Automatic transitions and Skip advance through separate queue entries with each song's own progress and media-session metadata.\n\nExisting downloads use the corrected player automatically; downloading them again is not required.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "009fbfa382c3f6feb76cb5bf4daa5121eec0cb68"
+  "sourceCommit": "a01542983bd885388e8e34cb874ab2132c165592"
 }
