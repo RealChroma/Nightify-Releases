@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "Now Playing follows the active audio item as songs advance automatically. Elapsed time and duration come from the same audio item, and late notifications from a previous song can no longer advance the queue again.\n\nNightify skips preview-only SoundCloud recordings when a full stream is unavailable. Refresh the Nightify source in SideStore or AltStore and update in place with the same Apple signing account.",
+      "localizedDescription": "# Nightify for iPhone 0.1.11\n\n- Each streamed or downloaded song now has its own playback boundary. A longer audio container can no longer extend one song's timeline through the following tracks.\n- Song duration, progress and lock-screen metadata stay tied to the current song.\n- Skip and Previous reconcile with the native player before choosing a queue entry, preventing a song already playing from being started again after an automatic transition.\n- Seeking stays within the current song. Repeat-one continues to repeat that song.\n\nExisting downloads use the corrected player automatically; downloading them again is not required.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.11",
+          "date": "2026-11-17T05:14:18Z",
+          "localizedDescription": "# Nightify for iPhone 0.1.11\n\n- Each streamed or downloaded song now has its own playback boundary. A longer audio container can no longer extend one song's timeline through the following tracks.\n- Song duration, progress and lock-screen metadata stay tied to the current song.\n- Skip and Previous reconcile with the native player before choosing a queue entry, preventing a song already playing from being started again after an automatic transition.\n- Seeking stays within the current song. Repeat-one continues to repeat that song.\n\nExisting downloads use the corrected player automatically; downloading them again is not required.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.11/Nightify-iOS-0.1.11.ipa",
+          "size": 23809505,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.10",
           "date": "2026-11-07T20:36:00Z",
