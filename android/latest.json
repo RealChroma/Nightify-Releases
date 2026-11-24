@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
-  "versionCode": 9,
+  "version": "0.1.9",
+  "versionCode": 10,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.8/Nightify-Android-0.1.8.apk",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.9/Nightify-Android-0.1.9.apk",
   "size": 55831368,
-  "sha256": "686d662a45a7f9e0b8c7ef2645289b3810f1cee542715172c8300f0c753f91eb",
-  "releaseNotes": "# Nightify for Android 0.1.8\n\n- Streamed songs, local files and offline HLS downloads now retain their own playback boundaries through source resolution.\n- Long audio containers no longer keep later audio under one song's title or inflate its duration.\n- Automatic transitions and Skip advance through separate queue entries with each song's own progress and media-session metadata.\n\nExisting downloads use the corrected player automatically; downloading them again is not required.",
+  "sha256": "04bba2ecdcf8376830e64ea29742d205b188313001f19cd176d2e74a1ebd76d6",
+  "releaseNotes": "# Nightify for Android 0.1.9\n\n- Playback resolves the recording selected in the catalog. Related songs and radio menu links cannot be mistaken for a song's audio.\n- The player checks recording identity and length before accepting a stream. It also verifies the byte ranges it receives while playing or downloading.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "a01542983bd885388e8e34cb874ab2132c165592"
+  "sourceCommit": "204c1a3a6ef22414ef2bd75c91bc14643b9712ea"
 }
