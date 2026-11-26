@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "# Nightify for iPhone 0.1.12\n\n- Nightify fixes the inflated duration for fragmented audio in streams and downloads. It checks each recording before playback and streams compatible audio in short segments, so playback can start before the full file loads. Each queue entry runs as a separate audio item, so an old stream or extra audio cannot continue under the next song's title.\n- Open Settings → Playback → Offline mode to listen from Downloads. Saved playlists open from local storage, and downloaded songs appear immediately in Search.\n- Weak connections no longer hold up the entire library while one request is slow. The player reports a stream failure inline and lets you switch to saved audio.\n- Now Playing has Nightify's seek bar and a redesigned queue with separate Now playing and Up next sections. Use a song's menu to play it next or add it to the end.\n- Playable downloads stay available. If Nightify identifies a damaged or mismatched download, use Download again from its song menu when online.",
+      "localizedDescription": "# Nightify for iPhone 0.1.13\n\n- Organize the queue with drag reordering, Play Next, multiselect, and Clear queue. Songs added by hand stay separate from the album or playlist you started. Manage another signed-in Nightify device’s queue from Playback Devices.\n- Organize playlists with folders, pins, notes, collaboration, and recovery. Import songs from Nightify and YouTube playlist links.\n- Start a listening room, share a song at a specific time, and see your listening history, stats, and yearly recap.\n- Try crossfade, beat matching for compatible saved songs, volume normalization, and automatic Offline Backup. Set Wi-Fi, cellular, and download quality separately.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.13",
+          "date": "2026-11-26T23:35:00Z",
+          "localizedDescription": "# Nightify for iPhone 0.1.13\n\n- Organize the queue with drag reordering, Play Next, multiselect, and Clear queue. Songs added by hand stay separate from the album or playlist you started. Manage another signed-in Nightify device’s queue from Playback Devices.\n- Organize playlists with folders, pins, notes, collaboration, and recovery. Import songs from Nightify and YouTube playlist links.\n- Start a listening room, share a song at a specific time, and see your listening history, stats, and yearly recap.\n- Try crossfade, beat matching for compatible saved songs, volume normalization, and automatic Offline Backup. Set Wi-Fi, cellular, and download quality separately.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.13/Nightify-iOS-0.1.13.ipa",
+          "size": 25579905,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.12",
           "date": "2026-11-24T08:45:34Z",
