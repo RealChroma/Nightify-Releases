@@ -2,7 +2,7 @@
 
 Nightify is an independently maintained music player for desktop, iPhone and Android by RealChroma.
 
-[Download the latest version](https://github.com/RealChroma/Nightify-Releases/releases/latest) · [Website](https://nightify.vercel.app/) · [Report an issue](https://github.com/RealChroma/Nightify-Releases/issues)
+[Desktop downloads](https://github.com/RealChroma/Nightify-Releases/releases/latest) · [iPhone releases](https://github.com/RealChroma/Nightify-Releases/releases?q=iPhone&expanded=true) · [Android releases](https://github.com/RealChroma/Nightify-Releases/releases?q=Android&expanded=true) · [Website](https://nightify.vercel.app/) · [Report an issue](https://github.com/RealChroma/Nightify-Releases/issues)
 
 ## Desktop installers
 
@@ -28,15 +28,15 @@ https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/apps.jso
 
 Use the source listing to install future Nightify versions. Signing refresh keeps an installed version valid; it is separate from installing an app update. iPhone releases use their own update channel.
 
-[iPhone 0.1.10](https://github.com/RealChroma/Nightify-Releases/releases/tag/ios-v0.1.10) keeps the song title and timing synchronized as playback advances automatically and handles preview-only recordings.
+[Browse iPhone release notes and IPA downloads](https://github.com/RealChroma/Nightify-Releases/releases?q=iPhone&expanded=true).
 
 ## Android
 
 The native Android app uses Nightify's existing visual design, mobile features and account/device services.
 
-**[Download Android 0.1.7](https://github.com/RealChroma/Nightify-Releases/releases/tag/android-v0.1.7)** · **[Install on Android or Android Auto](android/INSTALL.md)**
+**[Download the Android APK](https://github.com/RealChroma/Nightify-Releases/releases?q=Android&expanded=true)** · **[Install on Android or Android Auto](android/INSTALL.md)**
 
-Install the signed APK on Android 9 or newer. Version 0.1.7 corrects playback titles and timestamps, uses the actual audio length, and checks for unreadable streams before playback. The app checks for future Android releases and offers a download/install action. Android Auto's media service is included; compatibility with a particular phone and head unit still requires testing. Android releases have their own update channel.
+Install the signed APK on Android 9 or newer. Nightify checks for Android updates and offers an install action when a new version is available. Android Auto's media service is included. Compatibility varies by phone and head unit.
 
 ## Connect devices
 
