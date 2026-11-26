@@ -1,11 +1,11 @@
 {
-  "version": "0.1.9",
-  "versionCode": 10,
+  "version": "0.1.10",
+  "versionCode": 11,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.9/Nightify-Android-0.1.9.apk",
-  "size": 55831368,
-  "sha256": "04bba2ecdcf8376830e64ea29742d205b188313001f19cd176d2e74a1ebd76d6",
-  "releaseNotes": "# Nightify for Android 0.1.9\n\n- Playback resolves the recording selected in the catalog. Related songs and radio menu links cannot be mistaken for a song's audio.\n- The player checks recording identity and length before accepting a stream. It also verifies the byte ranges it receives while playing or downloading.",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.10/Nightify-Android-0.1.10.apk",
+  "size": 57027440,
+  "sha256": "a7adb35348ffd177dcb8cb5ae5587490e7a85ead7386e7d2ddf73867b31d707d",
+  "releaseNotes": "# Nightify for Android 0.1.10\n\n- Organize the queue with drag reordering, Play Next, multiselect, and Clear queue. Songs added by hand stay separate from the album or playlist you started. Manage another signed-in Nightify device’s queue from Playback Devices.\n- Organize playlists with folders, pins, notes, collaboration, and recovery. Import songs from Nightify and YouTube playlist links.\n- Start a listening room, share a song at a specific time, and see your listening history, stats, and yearly recap.\n- Try crossfade, beat matching for compatible saved songs, volume normalization, and automatic Offline Backup. Set Wi-Fi, cellular, and download quality separately.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "204c1a3a6ef22414ef2bd75c91bc14643b9712ea"
+  "sourceCommit": "1d4e78a92d569685c9683d2d8d88a9f7f794305c"
 }
