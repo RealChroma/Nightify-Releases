@@ -1,11 +1,11 @@
 {
-  "version": "0.1.10",
-  "versionCode": 11,
+  "version": "0.1.11",
+  "versionCode": 12,
   "minSdk": 28,
-  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.10/Nightify-Android-0.1.10.apk",
+  "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/android-v0.1.11/Nightify-Android-0.1.11.apk",
   "size": 57027440,
-  "sha256": "a7adb35348ffd177dcb8cb5ae5587490e7a85ead7386e7d2ddf73867b31d707d",
-  "releaseNotes": "# Nightify for Android 0.1.10\n\n- Organize the queue with drag reordering, Play Next, multiselect, and Clear queue. Songs added by hand stay separate from the album or playlist you started. Manage another signed-in Nightify device’s queue from Playback Devices.\n- Organize playlists with folders, pins, notes, collaboration, and recovery. Import songs from Nightify and YouTube playlist links.\n- Start a listening room, share a song at a specific time, and see your listening history, stats, and yearly recap.\n- Try crossfade, beat matching for compatible saved songs, volume normalization, and automatic Offline Backup. Set Wi-Fi, cellular, and download quality separately.",
+  "sha256": "98ad5af6bb29e197f9ae39a13f44f55d19c224273e340d86360a3212f48f6858",
+  "releaseNotes": "# Nightify for Android 0.1.11\n\n- Now Playing shows the next song and opens its queue when tapped.\n- Tapping Play on an album or playlist rebuilds its track list and preserves songs you added by hand. Confirmed unavailable songs can be skipped during automatic playback so the rest of the album can continue.\n- Reopening Nightify restores the full local queue, including longer playlists and duplicate song entries.",
   "certificateSHA256": "ceb1ad068b115bd79168b38301c7302bf02cb887086f2042a1b4cc81411eb173",
-  "sourceCommit": "1d4e78a92d569685c9683d2d8d88a9f7f794305c"
+  "sourceCommit": "d524fe67cbbc6315ad86671e080bc0af7c79a9ff"
 }
