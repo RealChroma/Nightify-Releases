@@ -9,7 +9,7 @@
       "bundleIdentifier": "com.realchroma.nightify.ios",
       "developerName": "RealChroma",
       "subtitle": "Your music, on every screen.",
-      "localizedDescription": "# Nightify for iPhone 0.1.13\n\n- Organize the queue with drag reordering, Play Next, multiselect, and Clear queue. Songs added by hand stay separate from the album or playlist you started. Manage another signed-in Nightify device’s queue from Playback Devices.\n- Organize playlists with folders, pins, notes, collaboration, and recovery. Import songs from Nightify and YouTube playlist links.\n- Start a listening room, share a song at a specific time, and see your listening history, stats, and yearly recap.\n- Try crossfade, beat matching for compatible saved songs, volume normalization, and automatic Offline Backup. Set Wi-Fi, cellular, and download quality separately.",
+      "localizedDescription": "# Nightify for iPhone 0.1.14\n\n- Now Playing shows the next song and updates when a track ends, including during crossfade.\n- Tapping Play on an album or playlist rebuilds its track list and preserves songs you added by hand. Confirmed unavailable songs can be skipped during automatic playback so the rest of the album can continue.\n- Reopening Nightify restores your local queue and player position.",
       "iconURL": "https://raw.githubusercontent.com/RealChroma/Nightify-Releases/main/ios/icon.png",
       "tintColor": "A654FF",
       "appPermissions": {
@@ -19,6 +19,14 @@
         }
       },
       "versions": [
+        {
+          "version": "0.1.14",
+          "date": "2026-11-27T00:29:06Z",
+          "localizedDescription": "# Nightify for iPhone 0.1.14\n\n- Now Playing shows the next song and updates when a track ends, including during crossfade.\n- Tapping Play on an album or playlist rebuilds its track list and preserves songs you added by hand. Confirmed unavailable songs can be skipped during automatic playback so the rest of the album can continue.\n- Reopening Nightify restores your local queue and player position.",
+          "downloadURL": "https://github.com/RealChroma/Nightify-Releases/releases/download/ios-v0.1.14/Nightify-iOS-0.1.14.ipa",
+          "size": 25611015,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.1.13",
           "date": "2026-11-26T23:35:00Z",
